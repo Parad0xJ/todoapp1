@@ -6,7 +6,7 @@ export default function NavBar({ width = 30, height = 24 }) {
       <div className="container-fluid justify-content-center">
         <a className="navbar-brand" href="#">
           <img
-            src="./src/assets/bootstrap-logo.svg"
+            src="../src/assets/bootstrap-logo.svg"
             alt="Logo"
             width={width}
             height={height}
@@ -15,7 +15,7 @@ export default function NavBar({ width = 30, height = 24 }) {
           React & Boostrap APP
         </a>
         <img
-          src="./src/assets/react.svg"
+          src="../src/assets/react.svg"
           alt="Logo"
           width={width}
           height={height}
